@@ -101,28 +101,28 @@ function randomInteger() {
 function activation() {
     if (random == 1) {
         var audio = new Audio(); // Создаём новый элемент Audio
-        audio.src = '../sounds/1.mp3'; // Указываем путь к звуку "клика"
+        audio.src = 'sounds/1.mp3'; // Указываем путь к звуку "клика"
         audio.autoplay = true; // Автоматически запускаем
         document.getElementById('red').style.background = 'red';
         setTimeout(returnColor, 200);        
     }
     else if (random == 2) {
         var audio = new Audio(); // Создаём новый элемент Audio
-        audio.src = '../sounds/2.mp3'; // Указываем путь к звуку "клика"
+        audio.src = 'sounds/2.mp3'; // Указываем путь к звуку "клика"
         audio.autoplay = true; // Автоматически запускаем
         document.getElementById('blue').style.background = 'blue';
         setTimeout(returnColor, 200);
     }
     else if (random == 3) {
         var audio = new Audio(); // Создаём новый элемент Audio
-        audio.src = '../sounds/3.mp3'; // Указываем путь к звуку "клика"
+        audio.src = 'sounds/3.mp3'; // Указываем путь к звуку "клика"
         audio.autoplay = true; // Автоматически запускаем
         document.getElementById('yellow').style.background = 'orange';
         setTimeout(returnColor, 200);
     }
     else if (random == 4) {
         var audio = new Audio(); // Создаём новый элемент Audio
-        audio.src = '../sounds/4.mp3'; // Указываем путь к звуку "клика"
+        audio.src = 'sounds/4.mp3'; // Указываем путь к звуку "клика"
         audio.autoplay = true; // Автоматически запускаем
         document.getElementById('green').style.background = 'green';
         setTimeout(returnColor, 200);
@@ -151,22 +151,22 @@ function activationLight() {
 function activationSound() {
     if (random == 1) {
         var audio = new Audio(); // Создаём новый элемент Audio
-        audio.src = '../sounds/1.mp3'; // Указываем путь к звуку "клика"
+        audio.src = 'sounds/1.mp3'; // Указываем путь к звуку "клика"
         audio.autoplay = true; // Автоматически запускаем   
     }
     else if (random == 2) {
         var audio = new Audio(); // Создаём новый элемент Audio
-        audio.src = '../sounds/2.mp3'; // Указываем путь к звуку "клика"
+        audio.src = 'sounds/2.mp3'; // Указываем путь к звуку "клика"
         audio.autoplay = true; // Автоматически запускаем
     }
     else if (random == 3) {
         var audio = new Audio(); // Создаём новый элемент Audio
-        audio.src = '../sounds/3.mp3'; // Указываем путь к звуку "клика"
+        audio.src = 'sounds/3.mp3'; // Указываем путь к звуку "клика"
         audio.autoplay = true; // Автоматически запускаем
     }
     else if (random == 4) {
         var audio = new Audio(); // Создаём новый элемент Audio
-        audio.src = '../sounds/4.mp3'; // Указываем путь к звуку "клика"
+        audio.src = 'sounds/4.mp3'; // Указываем путь к звуку "клика"
         audio.autoplay = true; // Автоматически запускаем
     }
 }   
@@ -202,7 +202,7 @@ function playerRed() {
             random = 1;
             playerOrder.push(1);
             var audio = new Audio(); // Создаём новый элемент Audio
-            audio.src = '../sounds/1.mp3'; // Указываем путь к звуку "клика"
+            audio.src = 'sounds/1.mp3'; // Указываем путь к звуку "клика"
             audio.autoplay = true; // Автоматически запускаем
             document.getElementById('red').style.background = 'red';
         }
@@ -212,7 +212,7 @@ function playerRed() {
             random = 1;
             playerOrder.push(1);
             var audio = new Audio(); // Создаём новый элемент Audio
-            audio.src = '../sounds/1.mp3'; // Указываем путь к звуку "клика"
+            audio.src = 'sounds/1.mp3'; // Указываем путь к звуку "клика"
             audio.autoplay = true; // Автоматически запускаем
             document.getElementById('red').style.background = 'red';  
         }
@@ -225,7 +225,7 @@ function playerBlue() {
             random = 2;
             playerOrder.push(2);
             var audio = new Audio(); // Создаём новый элемент Audio
-            audio.src = '../sounds/2.mp3'; // Указываем путь к звуку "клика"
+            audio.src = 'sounds/2.mp3'; // Указываем путь к звуку "клика"
             audio.autoplay = true; // Автоматически запускаем
             document.getElementById('blue').style.background = 'blue';  
         }
@@ -235,7 +235,7 @@ function playerBlue() {
             random = 2;
             playerOrder.push(2);
             var audio = new Audio(); // Создаём новый элемент Audio
-            audio.src = '../sounds/2.mp3'; // Указываем путь к звуку "клика"
+            audio.src = 'sounds/2.mp3'; // Указываем путь к звуку "клика"
             audio.autoplay = true; // Автоматически запускаем
             document.getElementById('blue').style.background = 'blue';
         }
@@ -248,7 +248,7 @@ function playerYellow() {
             random = 3;
             playerOrder.push(3);
             var audio = new Audio(); // Создаём новый элемент Audio
-            audio.src = '../sounds/3.mp3'; // Указываем путь к звуку "клика"
+            audio.src = 'sounds/3.mp3'; // Указываем путь к звуку "клика"
             audio.autoplay = true; // Автоматически запускаем
             document.getElementById('yellow').style.background = 'orange';  
         }
@@ -258,7 +258,7 @@ function playerYellow() {
             random = 3;
             playerOrder.push(3);
             var audio = new Audio(); // Создаём новый элемент Audio
-            audio.src = '../sounds/3.mp3'; // Указываем путь к звуку "клика"
+            audio.src = 'sounds/3.mp3'; // Указываем путь к звуку "клика"
             audio.autoplay = true; // Автоматически запускаем
             document.getElementById('yellow').style.background = 'orange';
         }
@@ -271,7 +271,7 @@ function playerGreen() {
             random = 4;
             playerOrder.push(4);
             var audio = new Audio(); // Создаём новый элемент Audio
-            audio.src = '../sounds/4.mp3'; // Указываем путь к звуку "клика"
+            audio.src = 'sounds/4.mp3'; // Указываем путь к звуку "клика"
             audio.autoplay = true; // Автоматически запускаем
             document.getElementById('green').style.background = 'green';
         }
@@ -281,7 +281,7 @@ function playerGreen() {
             random = 4;
             playerOrder.push(4);
             var audio = new Audio(); // Создаём новый элемент Audio
-            audio.src = '../sounds/4.mp3'; // Указываем путь к звуку "клика"
+            audio.src = 'sounds/4.mp3'; // Указываем путь к звуку "клика"
             audio.autoplay = true; // Автоматически запускаем
             document.getElementById('green').style.background = 'green';    
         }
